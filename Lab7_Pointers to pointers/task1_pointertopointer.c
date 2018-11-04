@@ -19,7 +19,7 @@ int main () {
 	scanf("%d",&col[i]);
 	input[i] = (char*) malloc(col[i] * sizeof(char));
 	printf("Enter Employee[%d]= ",i);
-	scanf("%s",input[i]);
+	scanf("%s",input[i]); // or cab be scanf("%s",&input[i][0])
 	}
 
 
